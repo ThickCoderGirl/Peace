@@ -1,0 +1,123 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+
+
+  
+
+
+body {
+background-color: lightgray;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header{
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+
+img {
+    border-radius: 8px;
+}
+
+.bio{
+
+    display: inline-flex;
+    margin: 3px;
+    padding: auto;
+    padding: 10px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 8px #888888;
+}
+
+.bio-content{
+    padding-top: 100px;
+   
+}
+
+
+.skill-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+    
+ justify-content: center;
+  background-color: #cfcbcb;
+  border: 1px solid;
+  box-shadow: 5px 8px #888888;
+ 
+
+}
+
+.project-content{
+    text-align: justify;
+    padding: 50px;
+    
+}
+
+.resume{
+    text-align: center;
+    padding: 10px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 8px #afafaf;
+}
+
+.btn{
+    background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.footer {
+   background-color:  #888888;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   font-size:24px;
+   display: flex;
+   justify-content: space-evenly;
+
+}
+
+/* unvisited link */
+a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  /* a:hover {
+    color: hotpink;
+    
+  } */
+
+  i:hover {
+    font-size: 30px;
+    color: white;
+  }
